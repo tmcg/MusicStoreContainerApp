@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Music Store";
+}
+
+<div class="text-center">
+
+    @foreach (var album in Model.Albums)
+    {
+        var imgSrc = $"/img/{album.ImageName}";
+        var imgAlt = $"{album.Name} ({album.ReleaseYear})";
+       <img src="@imgSrc" alt="@imgAlt" width="300" height="300" class="album-img" />
+    }
+
+</div>

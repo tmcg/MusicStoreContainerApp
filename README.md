@@ -1,2 +1,9 @@
-# MusicStoreContainerApp
-Sample application for deployment to cloud container services
+
+# Music Store Container App
+
+## src/
+ - Sample Application
+
+## deploy/azure
+ - Deployment to Azure Container Apps
+
